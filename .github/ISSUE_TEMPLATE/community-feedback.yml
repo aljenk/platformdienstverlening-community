@@ -1,0 +1,58 @@
+name: Community feedback Platformdienstverlening
+description: Feedback op de communitybundel voor kopieerbare Platformdienstverlening
+labels: [community-feedback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dank voor je feedback. Vul alleen in wat relevant is. Deel geen secrets, tokens, wachtwoorden of persoonsgegevens.
+  - type: dropdown
+    id: doelgroep
+    attributes:
+      label: Doelgroep
+      options:
+        - Niet-technisch / bestuur / programma
+        - Architectuur / programmamanagement
+        - Developer / leverancier / beheer
+        - Gemengd
+    validations:
+      required: true
+  - type: input
+    id: document
+    attributes:
+      label: Document of sectie
+      placeholder: docs/community/README.md, technische-handleiding, HCC-uitleg, enzovoort
+    validations:
+      required: true
+  - type: dropdown
+    id: classificatie
+    attributes:
+      label: Classificatie
+      options:
+        - blokkerend
+        - belangrijk
+        - verbetering
+        - later
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: Wat is onduidelijk, onjuist, ontbrekend of juist bruikbaar?
+    validations:
+      required: true
+  - type: textarea
+    id: verwachting
+    attributes:
+      label: Gewenste aanpassing
+      description: Welke wijziging zou helpen?
+    validations:
+      required: false
+  - type: checkboxes
+    id: veiligheid
+    attributes:
+      label: Veiligheid
+      options:
+        - label: Ik heb geen secretwaarden, tokens, wachtwoorden of persoonsgegevens opgenomen.
+          required: true
