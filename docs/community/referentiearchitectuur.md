@@ -1,10 +1,20 @@
 # Referentiearchitectuur kopieerbare Platformdienstverlening
 
-Status: eerste communityversie, 2026-05-21.
+Status: eerste communityversie, 2026-05-21. Aangevuld op 2026-05-29 met componentgerichte architectuurgates.
 
 ## Architectuurprincipe
 
 Scheid wat herbruikbaar is van wat lokaal is. De generieke laag beschrijft componenten en relaties. De environment-laag beschrijft de keuzes van een specifieke omgeving.
+
+Aanvullende principes:
+
+- data bij de bron
+- hergebruik vóór nieuwbouw
+- open source en portabiliteit
+- servicegerichte componenten met expliciete API-contracten
+- logging van techniek én dataverwerking
+- platformbrede IAM met Keycloak, DigiD en policy based autorisatie als richting
+- governance op afwijkingen, API-wijzigingen en de lifecycle van bouwblokken
 
 ## Lagenmodel
 
@@ -127,6 +137,18 @@ Een omgeving is pas overdraagbaar bewezen als:
 - Flux source-sync groen is
 - component-smokes groen zijn
 - driftcontrole groen is
+
+## Klaarcriteria per component
+
+Een component is pas architectuurlijk klaar voor implementatie als:
+
+- dienstverlening, proceslaag en informatielaag zijn benoemd
+- bronmatrix is ingevuld voor leidende bron, cache, lokale kopie, synchronisatie en correctiepad
+- hergebruikscan op bouwblokken, businessservices, registers en API's is uitgevoerd
+- API-patroon, versiebeheer en compatibiliteit zijn vastgelegd
+- logging van techniek en dataverwerking is beschreven
+- authenticatie, autorisatie, rollen, claims en policy-context zijn testbaar beschreven
+- eigenaar, lifecycle, deprecatiepad en architectuurexcepties zijn vastgelegd
 
 ## Bewijsbronnen
 

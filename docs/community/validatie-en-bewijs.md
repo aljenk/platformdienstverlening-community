@@ -8,6 +8,29 @@ Geen live-ready claim zonder bewijs. Elk onderdeel van de aanpak heeft een gate,
 
 ## Gate-overzicht
 
+### Architectuurkader-gate
+
+Doel:
+
+- controleren dat een component niet alleen technisch deploybaar is, maar ook past binnen dienstverlening, informatiepositie en hergebruik
+- voorkomen dat lokale opslag, API-keuzes of autorisatie ad hoc ontstaan
+
+Bewijs:
+
+- componentkaart met dienstverlening, proceslaag en informatielaag
+- bronmatrix met leidende bron, cache, lokale kopie, synchronisatie en correctiepad
+- hergebruikscan op bouwblokken, businessservices, registers en API's
+- API-patroon, versiebeheer en compatibiliteit
+- logging van techniek en dataverwerking
+- authenticatie, autorisatie, rollen, claims en policy-context
+- eigenaar, lifecycle, deprecatiepad en architectuurexcepties
+
+Niet claimen:
+
+- dat een component klaar is voor implementatie als alleen Kubernetes-manifests bestaan
+- dat lokale opslag een bronregistratie vervangt zonder expliciet besluit
+- dat logging compleet is zonder dataverwerkings- en auditdoel
+
 ### Contractgate
 
 Doel:

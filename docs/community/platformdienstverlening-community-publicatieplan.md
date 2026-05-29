@@ -1,6 +1,6 @@
 # Community-publicatieplan Platformdienstverlening
 
-Status: aanpak vastgelegd, eerste outline gemaakt, 2026-05-21.
+Status: aanpak vastgelegd, eerste outline gemaakt, 2026-05-21. Aangevuld op 2026-05-29 met componentgerichte architectuurgates.
 
 ## Doel
 
@@ -18,12 +18,14 @@ Kernboodschap:
    - environment-contract voor DNS, issuer, storage, SecretStore, databasehost en imagePullSecret
    - secrets buiten Git
    - gates vóór claims: contract, prereq, secret inventory, render, install, CI, DNS/TLS, Flux, smoke en drift
+   - architectuurkader-gates vóór componentclaims: data bij de bron, hergebruikscan, API-patroon, logging van dataverwerking, IAM/PxP en governance-excepties
 
 2. De reden
    - minder afhankelijk van één server of één ontwikkelomgeving
    - sneller overdraagbaar naar gemeenten, leveranciers of andere teams
    - minder risico op verborgen handmatige fixes
    - objectief bewijs via logs in plaats van mondelinge status
+   - betere aansluiting op Common Ground door herbruikbare bouwblokken, open source, portabiliteit en data bij de bron expliciet toetsbaar te maken
 
 3. De beperkingen
    - een tweede server is nog niet live gereconciled
@@ -50,6 +52,7 @@ Hulpmiddel:
 
 - bestuurlijke samenvatting met waarde, risico's en besluitpunten
 - praatplaat of presentatie-outline
+- compacte uitleg dat Platformdienstverlening niet alleen techniek is, maar ook dienstverlening, informatiepositie, governance en hergebruik
 
 ### Architect / programmamanager
 
@@ -64,6 +67,7 @@ Boodschap:
 - De architectuur gebruikt een contractgestuurd GitOps-model.
 - De generieke laag bevat geen DNS-, IP-, secret- of serverkeuzes.
 - Elke omgeving krijgt een eigen contract en eigen validatiebewijs.
+- Componenten krijgen naast technische gates ook een bronmatrix, hergebruikscan, API-patroonkeuze, logging/IAM-afbakening en governance-excepties.
 
 Hulpmiddel:
 

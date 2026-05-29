@@ -15,6 +15,7 @@ Veel platformprojecten werken technisch, maar zijn lastig te herhalen. De oorzaa
 - Een reproduceerbare structuur voor platformomgevingen.
 - Een environment-contract waarin lokale keuzes expliciet staan.
 - Gates die aantonen of een omgeving klaar is voor de volgende stap.
+- Componentgerichte gates voor data bij de bron, hergebruik, API-patronen, logging, IAM en governance.
 - Bewijslogs waarmee teams status kunnen overdragen.
 - Een eerlijke scheiding tussen dev-geschiktheid en productiegeschiktheid.
 
@@ -25,6 +26,7 @@ Veel platformprojecten werken technisch, maar zijn lastig te herhalen. De oorzaa
 - Beter zicht op wat klaar is en wat nog een expliciete afwijking is.
 - Minder afhankelijkheid van individuele beheerders.
 - Betere basis voor besluitvorming over productie-eisen.
+- Meer grip op hergebruik: teams moeten vóór nieuwbouw aantonen welke bouwblokken, businessservices, registers en API's al bestaan.
 
 ## Haven en Haven+
 
@@ -65,6 +67,7 @@ Voor een organisatie die deze aanpak wil gebruiken:
 - Welke afwijkingen zijn tijdelijk acceptabel en wie keurt die goed?
 - Wie beheert secrets en SecretStores?
 - Wie is eigenaar van de releasegates en bewijslogs?
+- Wie keurt architectuurexcepties goed voor bronregistraties, API-wijzigingen, logging en autorisatie?
 - Wanneer mag een omgeving live-ready worden genoemd?
 
 ## Niet claimen
