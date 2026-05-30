@@ -1,6 +1,6 @@
 # Validatie en bewijs voor kopieerbare Platformdienstverlening
 
-Status: eerste communityversie, 2026-05-21.
+Status: eerste communityversie, 2026-05-21. Aangevuld op 2026-05-30 met componentkaart-template en architectuur-startgate.
 
 ## Principe
 
@@ -30,6 +30,17 @@ Niet claimen:
 - dat een component klaar is voor implementatie als alleen Kubernetes-manifests bestaan
 - dat lokale opslag een bronregistratie vervangt zonder expliciet besluit
 - dat logging compleet is zonder dataverwerkings- en auditdoel
+
+Uitvoerhulpen:
+
+- `docs/community/componentkaart-template.md`
+- `docs/community/architectuur-startgate.md`
+
+Verwachte compacte bewijsregel:
+
+```text
+ARCHITECTUUR_STARTGATE status=PASS componentkaart=<pad>
+```
 
 ### Contractgate
 

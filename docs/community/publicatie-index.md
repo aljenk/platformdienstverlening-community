@@ -1,6 +1,6 @@
 # Publicatie-index Platformdienstverlening communitybundel
 
-Status: eerste publicatie-index, 2026-05-21.
+Status: eerste publicatie-index, 2026-05-21. Aangevuld op 2026-05-30 met componentkaart-template en architectuur-startgate.
 
 ## Doel
 
@@ -29,6 +29,8 @@ Lees:
 
 - `docs/community/referentiearchitectuur.md`
 - `docs/community/validatie-en-bewijs.md`
+- `docs/community/componentkaart-template.md`
+- `docs/community/architectuur-startgate.md`
 - `docs/community/publicatie-review-checklist.md`
 
 Voor:
@@ -81,6 +83,7 @@ Gebruik:
 
 - De methode voor kopieerbaarheid is uitgewerkt.
 - De communitydocs bevatten aparte lagen voor niet-technische, architectuur- en technische lezers.
+- Nieuwe componenten kunnen met een componentkaart en startgate vóór implementatie worden getoetst.
 - De huidige dev-omgeving is met gates en bewijslogs gevalideerd.
 - De HCC/Haven+ uitkomst is expliciet opgenomen.
 - De publicatiecheck is automatisch uitvoerbaar.

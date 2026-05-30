@@ -1,6 +1,6 @@
 # Community-post: Platformdienstverlening overdraagbaar maken
 
-Status: concept voor communitypublicatie, 2026-05-21.
+Status: concept voor communitypublicatie, 2026-05-21. Aangevuld op 2026-05-30 met componentgerichte startgates.
 
 ## Korte versie
 
@@ -18,6 +18,7 @@ Deze aanpak maakt die afhankelijkheden expliciet:
 - omgevingskeuzes in `gitops/environments/<naam>/`
 - een environment-contract voor DNS, issuer, storage, SecretStore, databasehost en imagePullSecret
 - validators en gates voor contract, secrets, render, install, CI, DNS/TLS, Flux, smoke en drift
+- componentkaarten en startgates voor bronmatrix, hergebruik, API-compatibiliteit, logging, IAM, smoke, rollback en governance
 
 ## Voor niet-technische lezers
 

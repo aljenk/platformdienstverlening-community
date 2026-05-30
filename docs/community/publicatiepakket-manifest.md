@@ -1,6 +1,6 @@
 # Publicatiepakket manifest Platformdienstverlening communitybundel
 
-Status: eerste manifest, 2026-05-21.
+Status: eerste manifest, 2026-05-21. Aangevuld op 2026-05-30 met componentkaart-template en architectuur-startgate.
 
 ## Doel
 
@@ -25,6 +25,8 @@ Dit manifest bepaalt welke bestanden in het deelbare publicatiepakket horen. Het
 ### Validatie en bewijs
 
 - `docs/community/validatie-en-bewijs.md`
+- `docs/community/componentkaart-template.md`
+- `docs/community/architectuur-startgate.md`
 - `docs/community/demo-draaiboek-zonder-tweede-server.md`
 - `docs/community/demo-uitvoering-2026-05-21.md`
 - `docs/community/lessons-learned.md`

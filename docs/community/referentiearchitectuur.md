@@ -1,6 +1,6 @@
 # Referentiearchitectuur kopieerbare Platformdienstverlening
 
-Status: eerste communityversie, 2026-05-21. Aangevuld op 2026-05-29 met componentgerichte architectuurgates.
+Status: eerste communityversie, 2026-05-21. Aangevuld op 2026-05-29 met componentgerichte architectuurgates. Aangevuld op 2026-05-30 met componentkaart-template en architectuur-startgate.
 
 ## Architectuurprincipe
 
@@ -149,6 +149,11 @@ Een component is pas architectuurlijk klaar voor implementatie als:
 - logging van techniek en dataverwerking is beschreven
 - authenticatie, autorisatie, rollen, claims en policy-context zijn testbaar beschreven
 - eigenaar, lifecycle, deprecatiepad en architectuurexcepties zijn vastgelegd
+
+Gebruik hiervoor:
+
+- `docs/community/componentkaart-template.md`
+- `docs/community/architectuur-startgate.md`
 
 ## Bewijsbronnen
 

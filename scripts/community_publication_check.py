@@ -19,6 +19,8 @@ REQUIRED_FILES = [
     "referentiearchitectuur.md",
     "technische-handleiding.md",
     "validatie-en-bewijs.md",
+    "componentkaart-template.md",
+    "architectuur-startgate.md",
     "lessons-learned.md",
     "presentatie-outline.md",
     "publicatie-review-checklist.md",

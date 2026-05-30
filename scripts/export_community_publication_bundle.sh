@@ -20,6 +20,8 @@ FILES=(
   docs/community/technische-handleiding.md
   docs/community/begrippenlijst.md
   docs/community/validatie-en-bewijs.md
+  docs/community/componentkaart-template.md
+  docs/community/architectuur-startgate.md
   docs/community/demo-draaiboek-zonder-tweede-server.md
   docs/community/demo-uitvoering-2026-05-21.md
   docs/community/lessons-learned.md

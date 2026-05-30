@@ -1,6 +1,6 @@
 # Community-publicatieplan Platformdienstverlening
 
-Status: aanpak vastgelegd, eerste outline gemaakt, 2026-05-21. Aangevuld op 2026-05-29 met componentgerichte architectuurgates.
+Status: aanpak vastgelegd, eerste outline gemaakt, 2026-05-21. Aangevuld op 2026-05-29 met componentgerichte architectuurgates. Aangevuld op 2026-05-30 met componentkaart-template en architectuur-startgate.
 
 ## Doel
 
@@ -19,6 +19,7 @@ Kernboodschap:
    - secrets buiten Git
    - gates vóór claims: contract, prereq, secret inventory, render, install, CI, DNS/TLS, Flux, smoke en drift
    - architectuurkader-gates vóór componentclaims: data bij de bron, hergebruikscan, API-patroon, logging van dataverwerking, IAM/PxP en governance-excepties
+   - componentkaart-template en architectuur-startgate als praktische hulpmiddelen vóór implementatie
 
 2. De reden
    - minder afhankelijk van één server of één ontwikkelomgeving
@@ -159,7 +160,13 @@ Bewijsbronnen:
    - wat misging
    - welke patronen herbruikbaar zijn
 
-7. `docs/community/presentatie-outline.md`
+7. `docs/community/componentkaart-template.md`
+   - concrete kaart om componenten vóór implementatie te beschrijven
+
+8. `docs/community/architectuur-startgate.md`
+   - compacte gate om bronmatrix, hergebruik, API, secrets/IAM, smoke, rollback en governance te toetsen
+
+9. `docs/community/presentatie-outline.md`
    - opbouw voor demo, meetup of communitysessie
 
 ## Publicatievoorwaarden

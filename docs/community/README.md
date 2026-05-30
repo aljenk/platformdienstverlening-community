@@ -1,6 +1,6 @@
 # Platformdienstverlening community-outline
 
-Status: eerste community-outline, 2026-05-21.
+Status: eerste community-outline, 2026-05-21. Aangevuld op 2026-05-30 met componentkaart-template en architectuur-startgate.
 
 ## Waarom dit document
 
@@ -41,6 +41,7 @@ Belangrijke onderdelen:
 - `gitops/environments/<naam>/` voor omgevingsspecifieke overlays
 - environment-contract voor DNS, issuer, storage, SecretStore, databasehost en imagePullSecret
 - releasegates voor prereqs, secrets, render, install, CI, DNS/TLS, Flux, smoke en drift
+- componentkaart-template en architectuur-startgate voor bronmatrix, hergebruikscan, API-compatibiliteit, logging, IAM, smoke, rollback en governance
 
 ### Developer / leverancier
 
@@ -125,6 +126,8 @@ Deze outline wordt uitgewerkt naar:
 - `docs/community/referentiearchitectuur.md`
 - `docs/community/technische-handleiding.md`
 - `docs/community/validatie-en-bewijs.md`
+- `docs/community/componentkaart-template.md`
+- `docs/community/architectuur-startgate.md`
 - `docs/community/lessons-learned.md`
 - `docs/community/presentatie-outline.md`
 - `docs/community/begrippenlijst.md`
